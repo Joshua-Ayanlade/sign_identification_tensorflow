@@ -53,8 +53,8 @@ int main(int argc, char **argv) {
     cout << "Press 'q' to quit, 's' to save image, 'i' for info" << endl;
     
     // Model parameters
-    int input_width = 24;
-    int input_height = 24;
+    int input_width = 100;
+    int input_height = 100;
     double scale_factor = 1.0 / 255.0;
     Scalar mean_values = Scalar(0, 0, 0);
     bool swapRB = true;
